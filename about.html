@@ -1,512 +1,510 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="bpaas-design-system" content="brutalist-avantgarde">
-  <meta name="bpaas-design-theme" content="kr-night-signal">
-  <title>화곡 룸싸롱 TOP5 — 처음 방문부터 마무리까지 단계별 결정 가이드</title>
-  <meta name="description" content="화곡 룸싸롱 TOP5를 급하게 결정해야 하는 독자를 위한 절차 중심 안내. 문의부터 마무리까지 순서대로 조건을 확인하고, 먼저 정할 것과 나중에 정할 것을 구분해 시간을 단축합니다." />
-  <meta name="keywords" content="화곡 룸싸롱, 화곡 룸싸롱 TOP5, 화곡 룸싸롱 절차, 화곡 룸싸롱 가이드, 룸싸롱 예약, 화곡동 룸" />
-  <link rel="canonical" href="https://hwagok-review-guide.link-hub.org/about.html">
-  <!-- 7f3a9c 랜덤 주석 -->
-  <meta property="og:title" content="화곡 룸싸롱 TOP5 — 처음 방문부터 마무리까지 단계별 결정 가이드">
-  <meta property="og:description" content="화곡 룸싸롱 TOP5를 급하게 결정해야 하는 독자를 위한 절차 중심 안내. 문의부터 마무리까지 순서대로 조건을 확인하고, 먼저 정할 것과 나중에 정할 것을 구분해 시간을 단축합니다.">
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://hwagok-review-guide.link-hub.org/about.html">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="화곡 룸싸롱 TOP5 — 절차 중심 선택 안내" />
-  <meta name="twitter:description" content="화곡 룸싸롱 TOP5. 급하게 확인해야 할 조건과 단계별 준비 사항을 짧게 끊어 설명합니다." />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      background-color: #08080f;
-      color: #f0f0f5;
-      font-family: 'Noto Sans KR', sans-serif;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      -webkit-font-smoothing: antialiased;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    .v-foot-ywlr {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 0 24px;
-      width: 100%;
-    }
-    .t-txt-hu9n-bg {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-image: repeating-linear-gradient(0deg, rgba(240,240,245,0.03) 0px, rgba(240,240,245,0.03) 1px, transparent 1px, transparent 40px), repeating-linear-gradient(90deg, rgba(240,240,245,0.03) 0px, rgba(240,240,245,0.03) 1px, transparent 1px, transparent 40px);
-      pointer-events: none;
-      z-index: 0;
-    }
-    .v-side-c5za {
-      position: sticky;
-      top: 0;
-      width: 100%;
-      background: rgba(8,8,15,0.88);
-      backdrop-filter: blur(8px);
-      border-bottom: 2px solid #f0f0f5;
-      z-index: 50;
-      padding: 12px 0;
-    }
-    .v-side-c5za .v-foot-ywlr {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-    .t-btn-d09k {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 600;
-      font-size: 1.8rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: #f0f0f5;
-      text-decoration: none;
-    }
-    .n-head-zrjz {
-      background: none;
-      border: 2px solid #f0f0f5;
-      color: #f0f0f5;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      cursor: pointer;
-      background: rgba(255,255,255,0.02);
-      backdrop-filter: blur(4px);
-      border-radius: 8px;
-      padding: 4px;
-    }
-    .n-head-zrjz span {
-      display: block;
-      width: 22px;
-      height: 2px;
-      background: #f0f0f5;
-    }
-    .q-nav-adqd {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(8,8,16,0.96);
-      backdrop-filter: blur(12px);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 48px;
-      z-index: 100;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.2s ease, visibility 0.2s;
-      border: 2px solid #f0f0f5;
-    }
-    .q-nav-adqd.active {
-      opacity: 1;
-      visibility: visible;
-    }
-    .q-nav-adqd a {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 2.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      color: #f0f0f5;
-      text-decoration: none;
-      letter-spacing: 0.08em;
-      border-bottom: 2px solid transparent;
-    }
-    .q-nav-adqd a:hover {
-      border-color: #ff5c1a;
-      color: #ff5c1a;
-    }
-    .v-body-g14k-overlay {
-      position: absolute;
-      top: 24px;
-      right: 24px;
-      background: transparent;
-      border: 2px solid #f0f0f5;
-      color: #f0f0f5;
-      font-size: 1.8rem;
-      width: 44px;
-      height: 44px;
-      cursor: pointer;
-      border-radius: 8px;
-    }
-    main {
-      position: relative;
-      z-index: 2;
-      flex: 1;
-    }
-    section, .t-foot-peuy-wrap {
-      padding: 120px 0;
-    }
-    @media (max-width: 768px) {
-      section, .t-foot-peuy-wrap {
-        padding: 60px 0;
-      }
-    }
-    h1, h2, h3, .route-headline {
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-    h1 {
-      font-size: clamp(3.5rem, 10vw, 5.2rem);
-      line-height: 1;
-      margin-bottom: 16px;
-      color: #f0f0f5;
-    }
-    h2 {
-      font-size: 2.2rem;
-      margin-bottom: 24px;
-      border-bottom: 2px solid #ff5c1a;
-      display: inline-block;
-      padding-bottom: 6px;
-    }
-    .t-ico-06hi-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      background: rgba(255,255,255,0.03);
-      backdrop-filter: blur(8px);
-      border: 2px solid #ff5c1a;
-      padding: 8px 18px;
-      border-radius: 8px;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 600;
-      text-transform: uppercase;
-    }
-    .t-ico-06hi-square {
-      width: 16px;
-      height: 16px;
-      background: #ff5c1a;
-    }
-    .t-txt-hu9n-4 {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 24px;
-      margin-top: 40px;
-    }
-    @media (max-width: 768px) {
-      .t-txt-hu9n-4 {
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-    .q-side-dqwx-cell {
-      border: 2px solid #f0f0f5;
-      padding: 24px 16px;
-      background: rgba(255,255,255,0.02);
-      backdrop-filter: blur(4px);
-      border-radius: 8px;
-    }
-    .m-txt-kgwi {
-      position: relative;
-      padding-left: 28px;
-      margin: 32px 0;
-    }
-    .m-txt-kgwi::before {
-      content: '';
-      position: absolute;
-      left: 8px;
-      top: 6px;
-      bottom: 6px;
-      width: 2px;
-      background: #ff5c1a;
-    }
-    .m-txt-kgwi-item {
-      margin-bottom: 32px;
-      position: relative;
-    }
-    .m-txt-kgwi-dot {
-      position: absolute;
-      left: -22px;
-      top: 6px;
-      width: 10px;
-      height: 10px;
-      background: #08080f;
-      border: 2px solid #ff5c1a;
-      border-radius: 50%;
-    }
-    .q-ico-i0c9 {
-      display: grid;
-      grid-template-columns: 1.4fr 1fr;
-      gap: 48px;
-      align-items: start;
-    }
-    @media (max-width: 768px) {
-      .q-ico-i0c9 {
-        grid-template-columns: 1fr;
-      }
-    }
-    .q-grid-mz15 {
-      background: rgba(255,255,255,0.03);
-      backdrop-filter: blur(8px);
-      border: 2px solid #f0f0f5;
-      border-radius: 8px;
-      padding: 28px;
-    }
-    .q-side-989t-block {
-      border-top: 2px solid #ff5c1a;
-      padding: 32px 0;
-      margin-top: 60px;
-      display: flex;
-      gap: 24px;
-      align-items: center;
-      font-size: 0.95rem;
-    }
-    footer {
-      border-top: 2px solid #f0f0f5;
-      padding: 32px 0;
-      text-align: center;
-      font-size: 0.8rem;
-      letter-spacing: 0.05em;
-      color: #f0f0f5;
-      position: relative;
-      z-index: 2;
-      background: #08080f;
-    }
-    button, .q-head-ipqn {
-      background: transparent;
-      border: 2px solid #ff5c1a;
-      color: #ff5c1a;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 600;
-      text-transform: uppercase;
-      padding: 12px 28px;
-      border-radius: 8px;
-      cursor: pointer;
-      letter-spacing: 0.05em;
-      transition: 0.15s;
-    }
-    button:hover {
-      background: #ff5c1a;
-      color: #08080f;
-    }
-    .m-top-lici-text {
-      color: #ff5c1a;
-      font-weight: 600;
-    }
-    .k-body-z69f {
-      font-family: monospace;
-      background: rgba(255,255,255,0.02);
-      padding: 2px 8px;
-      border-radius: 4px;
-    }
-    /* hidden dom noise */
-    .note-x7b { display: none; }
-    article[style="display:none"] { visibility: hidden; }
-  </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+ <title>화곡 룸싸롱 TOP5 — 처음 방문부터 마무리까지 단계별 결정 가이드</title>
+ <meta name="description" content="화곡 룸싸롱 TOP5를 급하게 결정해야 하는 독자를 위한 절차 중심 안내. 문의부터 마무리까지 순서대로 조건을 확인하고, 먼저 정할 것과 나중에 정할 것을 구분해 시간을 단축합니다." />
+ <meta name="keywords" content="화곡 룸싸롱, 화곡 룸싸롱 TOP5, 화곡 룸싸롱 절차, 화곡 룸싸롱 가이드, 룸싸롱 예약, 화곡동 룸" />
+ <link rel="canonical" href="https://hwagok-review-guide.link-hub.org/about.html">
+ <!-- 7f3a9c 랜덤 주석 -->
+ <meta property="og:title" content="화곡 룸싸롱 TOP5 — 처음 방문부터 마무리까지 단계별 결정 가이드">
+ <meta property="og:description" content="화곡 룸싸롱 TOP5를 급하게 결정해야 하는 독자를 위한 절차 중심 안내. 문의부터 마무리까지 순서대로 조건을 확인하고, 먼저 정할 것과 나중에 정할 것을 구분해 시간을 단축합니다.">
+ <meta property="og:type" content="website" />
+ <meta property="og:url" content="https://hwagok-review-guide.link-hub.org/about.html">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="화곡 룸싸롱 TOP5 — 절차 중심 선택 안내" />
+ <meta name="twitter:description" content="화곡 룸싸롱 TOP5. 급하게 확인해야 할 조건과 단계별 준비 사항을 짧게 끊어 설명합니다." />
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ background-color: #08080f;
+ color: #f0f0f5;
+ font-family: 'Noto Sans KR', sans-serif;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ -webkit-font-smoothing: antialiased;
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ }
+ .v-foot-ywlr {
+ max-width: 980px;
+ margin: 0 auto;
+ padding: 0 24px;
+ width: 100%;
+ }
+ .t-txt-hu9n-bg {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ background-image: repeating-linear-gradient(0deg, rgba(240,240,245,0.03) 0px, rgba(240,240,245,0.03) 1px, transparent 1px, transparent 40px), repeating-linear-gradient(90deg, rgba(240,240,245,0.03) 0px, rgba(240,240,245,0.03) 1px, transparent 1px, transparent 40px);
+ pointer-events: none;
+ z-index: 0;
+ }
+ .v-side-c5za {
+ position: sticky;
+ top: 0;
+ width: 100%;
+ background: rgba(8,8,15,0.88);
+ backdrop-filter: blur(8px);
+ border-bottom: 2px solid #f0f0f5;
+ z-index: 50;
+ padding: 12px 0;
+ }
+ .v-side-c5za .v-foot-ywlr {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 980px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+ .t-btn-d09k {
+ font-family: 'Barlow Condensed', sans-serif;
+ font-weight: 600;
+ font-size: 1.8rem;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ color: #f0f0f5;
+ text-decoration: none;
+ }
+ .n-head-zrjz {
+ background: none;
+ border: 2px solid #f0f0f5;
+ color: #f0f0f5;
+ width: 40px;
+ height: 40px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 6px;
+ cursor: pointer;
+ background: rgba(255,255,255,0.02);
+ backdrop-filter: blur(4px);
+ border-radius: 8px;
+ padding: 4px;
+ }
+ .n-head-zrjz span {
+ display: block;
+ width: 22px;
+ height: 2px;
+ background: #f0f0f5;
+ }
+ .q-nav-adqd {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(8,8,16,0.96);
+ backdrop-filter: blur(12px);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 48px;
+ z-index: 100;
+ opacity: 0;
+ visibility: hidden;
+ transition: opacity 0.2s ease, visibility 0.2s;
+ border: 2px solid #f0f0f5;
+ }
+ .q-nav-adqd.active {
+ opacity: 1;
+ visibility: visible;
+ }
+ .q-nav-adqd a {
+ font-family: 'Barlow Condensed', sans-serif;
+ font-size: 2.8rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ color: #f0f0f5;
+ text-decoration: none;
+ letter-spacing: 0.08em;
+ border-bottom: 2px solid transparent;
+ }
+ .q-nav-adqd a:hover {
+ border-color: #ff5c1a;
+ color: #ff5c1a;
+ }
+ .v-body-g14k-overlay {
+ position: absolute;
+ top: 24px;
+ right: 24px;
+ background: transparent;
+ border: 2px solid #f0f0f5;
+ color: #f0f0f5;
+ font-size: 1.8rem;
+ width: 44px;
+ height: 44px;
+ cursor: pointer;
+ border-radius: 8px;
+ }
+ main {
+ position: relative;
+ z-index: 2;
+ flex: 1;
+ }
+ section, .t-foot-peuy-wrap {
+ padding: 120px 0;
+ }
+ @media (max-width: 768px) {
+ section, .t-foot-peuy-wrap {
+ padding: 60px 0;
+ }
+ }
+ h1, h2, h3, .route-headline {
+ font-family: 'Barlow Condensed', sans-serif;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 0.04em;
+ }
+ h1 {
+ font-size: clamp(3.5rem, 10vw, 5.2rem);
+ line-height: 1;
+ margin-bottom: 16px;
+ color: #f0f0f5;
+ }
+ h2 {
+ font-size: 2.2rem;
+ margin-bottom: 24px;
+ border-bottom: 2px solid #ff5c1a;
+ display: inline-block;
+ padding-bottom: 6px;
+ }
+ .t-ico-06hi-badge {
+ display: inline-flex;
+ align-items: center;
+ gap: 12px;
+ background: rgba(255,255,255,0.03);
+ backdrop-filter: blur(8px);
+ border: 2px solid #ff5c1a;
+ padding: 8px 18px;
+ border-radius: 8px;
+ font-family: 'Barlow Condensed', sans-serif;
+ font-weight: 600;
+ text-transform: uppercase;
+ }
+ .t-ico-06hi-square {
+ width: 16px;
+ height: 16px;
+ background: #ff5c1a;
+ }
+ .t-txt-hu9n-4 {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 24px;
+ margin-top: 40px;
+ }
+ @media (max-width: 768px) {
+ .t-txt-hu9n-4 {
+ grid-template-columns: 1fr 1fr;
+ }
+ }
+ .q-side-dqwx-cell {
+ border: 2px solid #f0f0f5;
+ padding: 24px 16px;
+ background: rgba(255,255,255,0.02);
+ backdrop-filter: blur(4px);
+ border-radius: 8px;
+ }
+ .m-txt-kgwi {
+ position: relative;
+ padding-left: 28px;
+ margin: 32px 0;
+ }
+ .m-txt-kgwi::before {
+ content: '';
+ position: absolute;
+ left: 8px;
+ top: 6px;
+ bottom: 6px;
+ width: 2px;
+ background: #ff5c1a;
+ }
+ .m-txt-kgwi-item {
+ margin-bottom: 32px;
+ position: relative;
+ }
+ .m-txt-kgwi-dot {
+ position: absolute;
+ left: -22px;
+ top: 6px;
+ width: 10px;
+ height: 10px;
+ background: #08080f;
+ border: 2px solid #ff5c1a;
+ border-radius: 50%;
+ }
+ .q-ico-i0c9 {
+ display: grid;
+ grid-template-columns: 1.4fr 1fr;
+ gap: 48px;
+ align-items: start;
+ }
+ @media (max-width: 768px) {
+ .q-ico-i0c9 {
+ grid-template-columns: 1fr;
+ }
+ }
+ .q-grid-mz15 {
+ background: rgba(255,255,255,0.03);
+ backdrop-filter: blur(8px);
+ border: 2px solid #f0f0f5;
+ border-radius: 8px;
+ padding: 28px;
+ }
+ .q-side-989t-block {
+ border-top: 2px solid #ff5c1a;
+ padding: 32px 0;
+ margin-top: 60px;
+ display: flex;
+ gap: 24px;
+ align-items: center;
+ font-size: 0.95rem;
+ }
+ footer {
+ border-top: 2px solid #f0f0f5;
+ padding: 32px 0;
+ text-align: center;
+ font-size: 0.8rem;
+ letter-spacing: 0.05em;
+ color: #f0f0f5;
+ position: relative;
+ z-index: 2;
+ background: #08080f;
+ }
+ button, .q-head-ipqn {
+ background: transparent;
+ border: 2px solid #ff5c1a;
+ color: #ff5c1a;
+ font-family: 'Barlow Condensed', sans-serif;
+ font-weight: 600;
+ text-transform: uppercase;
+ padding: 12px 28px;
+ border-radius: 8px;
+ cursor: pointer;
+ letter-spacing: 0.05em;
+ transition: 0.15s;
+ }
+ button:hover {
+ background: #ff5c1a;
+ color: #08080f;
+ }
+ .m-top-lici-text {
+ color: #ff5c1a;
+ font-weight: 600;
+ }
+ .k-body-z69f {
+ font-family: monospace;
+ background: rgba(255,255,255,0.02);
+ padding: 2px 8px;
+ border-radius: 4px;
+ }
+ /* hidden dom noise */
+ .note-x7b { display: none; }
+ article[style="display:none"] { visibility: hidden; }
+ </style>
 </head>
 <body>
-  <div class="t-txt-hu9n-bg" aria-hidden="true"></div>
-  <header class="v-side-c5za">
-    <div class="v-foot-ywlr">
-      <a href="/" class="t-btn-d09k">화곡 룸싸롱 TOP5</a>
-      <button class="n-head-zrjz" id="menuToggle" aria-label="메뉴 열기">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-  <nav class="q-nav-adqd" id="overlayNav">
-    <button class="v-body-g14k-overlay" id="closeOverlay">&times;</button>
-    <a href="#">절차</a>
-    <a href="#">선택기준</a>
-    <a href="#">조건확인</a>
-    <a href="#">FAQ</a>
-  </nav>
-  <main>
-    <!-- 히어로: night transit map visual -->
-    <section style="padding: 120px 0 80px;">
-      <div class="v-foot-ywlr">
-        <div class="t-ico-06hi-badge" style="margin-bottom:24px;">
-          <span class="t-ico-06hi-square"></span> ROUTE HWAGOK · SIGNAL NIGHT
-        </div>
-        <h1>화곡 룸싸롱 TOP5<br>절차 먼저, 선택은 빠르게</h1>
-        <p style="max-width:620px; font-size:1.1rem; margin-top:16px;">지금 급하게 장소를 정해야 한다면 조건부터 확인하세요. 되는지 안 되는지를 빨리 아는 것이 가장 중요합니다.</p>
-      </div>
-    </section>
+ <div class="t-txt-hu9n-bg" aria-hidden="true"></div>
+ <header class="v-side-c5za">
+ <div class="v-foot-ywlr">
+ <a href="/" class="t-btn-d09k">화곡 룸싸롱 TOP5</a>
+ <button class="n-head-zrjz" id="menuToggle" aria-label="메뉴 열기">
+ <span></span><span></span><span></span>
+ </button>
+ </div>
+ </header>
+ <nav class="q-nav-adqd" id="overlayNav">
+ <button class="v-body-g14k-overlay" id="closeOverlay">&times;</button>
+ <a href="#">절차</a>
+ <a href="#">선택기준</a>
+ <a href="#">조건확인</a>
+ <a href="#">FAQ</a>
+ </nav>
+ <main>
+ <!-- 히어로: night transit map visual -->
+ <section style="padding: 120px 0 80px;">
+ <div class="v-foot-ywlr">
+ <div class="t-ico-06hi-badge" style="margin-bottom:24px;">
+ <span class="t-ico-06hi-square"></span> ROUTE HWAGOK · SIGNAL NIGHT
+ </div>
+ <h1>화곡 룸싸롱 TOP5<br>절차 먼저, 선택은 빠르게</h1>
+ <p style="max-width:620px; font-size:1.1rem; margin-top:16px;">지금 급하게 장소를 정해야 한다면 조건부터 확인하세요. 되는지 안 되는지를 빨리 아는 것이 가장 중요합니다.</p>
+ </div>
+ </section>
 
-    <!-- 절차 중심 스텝 -->
-    <div class="wrapper-9k2mpl">
-      <section>
-        <div class="v-foot-ywlr">
-          <h2>STEP · 01 문의 전 결정</h2>
-          <div class="q-ico-i0c9">
-            <article>
-              <p><span class="m-top-lici-text">먼저 정할 것:</span> 인원 수, 희망 날짜, 대략적인 시간대. 이 세 가지가 없으면 상담 자체가 어렵습니다.</p>
-              <p style="margin-top:16px;"><span class="m-top-lici-text">나중에 정해도 되는 것:</span> 세부적인 주류 구성, 추가 요청 사항. 기본 조건만 확보하면 예약 가능 여부를 바로 확인할 수 있습니다.</p>
-            </article>
-            <aside class="q-grid-mz15">
-              <div style="font-family:'Barlow Condensed',sans-serif; font-weight:600;">준비 항목</div>
-              <ul style="margin-top:12px; list-style:none; padding-left:0;">
-                <li>• 정확한 인원</li>
-                <li>• 2~3개 날짜 후보</li>
-                <li>• 시간대 (이른 저녁/심야)</li>
-              </ul>
-            </aside>
-          </div>
-        </div>
-      </section>
-    </div>
+ <!-- 절차 중심 스텝 -->
+ <div class="wrapper-9k2mpl">
+ <section>
+ <div class="v-foot-ywlr">
+ <h2>STEP · 01 문의 전 결정</h2>
+ <div class="q-ico-i0c9">
+ <article>
+ <p><span class="m-top-lici-text">먼저 정할 것:</span> 인원 수, 희망 날짜, 대략적인 시간대. 이 세 가지가 없으면 상담 자체가 어렵습니다.</p>
+ <p style="margin-top:16px;"><span class="m-top-lici-text">나중에 정해도 되는 것:</span> 세부적인 주류 구성, 추가 요청 사항. 기본 조건만 확보하면 예약 가능 여부를 바로 확인할 수 있습니다.</p>
+ </article>
+ <aside class="q-grid-mz15">
+ <div style="font-family:'Barlow Condensed',sans-serif; font-weight:600;">준비 항목</div>
+ <ul style="margin-top:12px; list-style:none; padding-left:0;">
+ <li>• 정확한 인원</li>
+ <li>• 2~3개 날짜 후보</li>
+ <li>• 시간대 (이른 저녁/심야)</li>
+ </ul>
+ </aside>
+ </div>
+ </div>
+ </section>
+ </div>
 
-    <section>
-      <div class="v-foot-ywlr">
-        <h2>STEP 02 예약 가능 여부 확인</h2>
-        <div class="m-txt-kgwi">
-          <div class="m-txt-kgwi-item"><span class="m-txt-kgwi-dot"></span>인원과 날짜를 전달하면 현장에서 실시간 가능 룸 확인</div>
-          <div class="m-txt-kgwi-item"><span class="m-txt-kgwi-dot"></span>조건이 바뀌면(인원 추가 등) 즉시 재확인</div>
-          <div class="m-txt-kgwi-item"><span class="m-txt-kgwi-dot"></span>가능 여부 판단 후에 세부 사항 논의</div>
-        </div>
-        <p>중간에 조건이 바뀌면 다시 처음으로 돌아가야 합니다. 인원 변동이 가장 큰 변수입니다.</p>
-      </div>
-    </section>
+ <section>
+ <div class="v-foot-ywlr">
+ <h2>STEP 02 예약 가능 여부 확인</h2>
+ <div class="m-txt-kgwi">
+ <div class="m-txt-kgwi-item"><span class="m-txt-kgwi-dot"></span>인원과 날짜를 전달하면 현장에서 실시간 가능 룸 확인</div>
+ <div class="m-txt-kgwi-item"><span class="m-txt-kgwi-dot"></span>조건이 바뀌면(인원 추가 등) 즉시 재확인</div>
+ <div class="m-txt-kgwi-item"><span class="m-txt-kgwi-dot"></span>가능 여부 판단 후에 세부 사항 논의</div>
+ </div>
+ <p>중간에 조건이 바뀌면 다시 처음으로 돌아가야 합니다. 인원 변동이 가장 큰 변수입니다.</p>
+ </div>
+ </section>
 
-    <section style="background: rgba(255,255,255,0.01);">
-      <div class="v-foot-ywlr">
-        <h2>STEP 03 룸 스타일 선택</h2>
-        <div class="t-txt-hu9n-4">
-          <div class="q-side-dqwx-cell"><strong>프라이빗</strong><br>소규모 집중</div>
-          <div class="q-side-dqwx-cell"><strong>오픈형</strong><br>시야 확보</div>
-          <div class="q-side-dqwx-cell"><strong>대형</strong><br>8인 이상</div>
-          <div class="q-side-dqwx-cell"><strong>특수</strong><br>사운드 강화</div>
-        </div>
-      </div>
-    </section>
+ <section style="background: rgba(255,255,255,0.01);">
+ <div class="v-foot-ywlr">
+ <h2>STEP 03 룸 스타일 선택</h2>
+ <div class="t-txt-hu9n-4">
+ <div class="q-side-dqwx-cell"><strong>프라이빗</strong><br>소규모 집중</div>
+ <div class="q-side-dqwx-cell"><strong>오픈형</strong><br>시야 확보</div>
+ <div class="q-side-dqwx-cell"><strong>대형</strong><br>8인 이상</div>
+ <div class="q-side-dqwx-cell"><strong>특수</strong><br>사운드 강화</div>
+ </div>
+ </div>
+ </section>
 
-    <section>
-      <div class="v-foot-ywlr">
-        <h2>STEP 04 당일 절차</h2>
-        <article class="q-ico-i0c9">
-          <div>
-            <p>도착 전 확정된 예약 시간을 다시 한 번 확인합니다. 현장에서 인원 변동이 있을 경우 바로 공유해야 추가 비용이나 대기 없이 진행됩니다.</p>
-            <p style="margin-top:16px;">입장 후 기본 세팅 점검, 음향 확인, 추가 요청사항 전달 순서로 진행합니다.</p>
-          </div>
-          <aside class="q-grid-mz15">
-            <span class="k-body-z69f">도착 → 인원 체크 → 세팅 → 시작</span>
-          </aside>
-        </article>
-      </div>
-    </section>
+ <section>
+ <div class="v-foot-ywlr">
+ <h2>STEP 04 당일 절차</h2>
+ <article class="q-ico-i0c9">
+ <div>
+ <p>도착 전 확정된 예약 시간을 다시 한 번 확인합니다. 현장에서 인원 변동이 있을 경우 바로 공유해야 추가 비용이나 대기 없이 진행됩니다.</p>
+ <p style="margin-top:16px;">입장 후 기본 세팅 점검, 음향 확인, 추가 요청사항 전달 순서로 진행합니다.</p>
+ </div>
+ <aside class="q-grid-mz15">
+ <span class="k-body-z69f">도착 → 인원 체크 → 세팅 → 시작</span>
+ </aside>
+ </article>
+ </div>
+ </section>
 
-    <!-- FAQ -->
-    <section>
-      <div class="v-foot-ywlr">
-        <h2>빠른 질문</h2>
-        <div style="display:flex; flex-direction:column; gap:28px;">
-          <div>
-            <h3 style="font-size:1.3rem; margin-bottom:8px;">Q. 당일 예약이 가능한가요?</h3>
-            <p>인원과 시간대가 맞으면 당일 연결도 가능합니다. 오후 5시 이전에 문의하는 것이 가용 룸 확률이 높습니다.</p>
-          </div>
-          <div>
-            <h3 style="font-size:1.3rem; margin-bottom:8px;">Q. 인원이 갑자기 늘어나면 어떻게 하나요?</h3>
-            <p>도착 전에 인원 변동을 알려주면 룸 변경을 검토합니다. 현장에서 추가하면 공간 제약이 생길 수 있습니다.</p>
-          </div>
-          <div>
-            <h3 style="font-size:1.3rem; margin-bottom:8px;">Q. 초보자가 이용하기에 부담스럽지 않나요?</h3>
-            <p>절차가 단순합니다. 문의 시 초보라고 밝히면 설명을 단계별로 안내하기 때문에 복잡하지 않습니다.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+ <!-- FAQ -->
+ <section>
+ <div class="v-foot-ywlr">
+ <h2>빠른 질문</h2>
+ <div style="display:flex; flex-direction:column; gap:28px;">
+ <div>
+ <h3 style="font-size:1.3rem; margin-bottom:8px;">Q. 당일 예약이 가능한가요?</h3>
+ <p>인원과 시간대가 맞으면 당일 연결도 가능합니다. 오후 5시 이전에 문의하는 것이 가용 룸 확률이 높습니다.</p>
+ </div>
+ <div>
+ <h3 style="font-size:1.3rem; margin-bottom:8px;">Q. 인원이 갑자기 늘어나면 어떻게 하나요?</h3>
+ <p>도착 전에 인원 변동을 알려주면 룸 변경을 검토합니다. 현장에서 추가하면 공간 제약이 생길 수 있습니다.</p>
+ </div>
+ <div>
+ <h3 style="font-size:1.3rem; margin-bottom:8px;">Q. 초보자가 이용하기에 부담스럽지 않나요?</h3>
+ <p>절차가 단순합니다. 문의 시 초보라고 밝히면 설명을 단계별로 안내하기 때문에 복잡하지 않습니다.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <!-- 작성자 바이오 -->
-    <div class="v-foot-ywlr">
-      <div class="q-side-989t-block">
-        <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.8rem; line-height:1;">JH</div>
-        <div><strong>정환 로컬 가이드</strong><br>화곡 지역 유흥 정보를 5년간 정리해온 로컬 리서처입니다. 빠른 결정이 필요한 방문자에게 절차 중심 정보를 제공합니다.</div>
-      </div>
-    </div>
-  </main>
+ <!-- 작성자 바이오 -->
+ <div class="v-foot-ywlr">
+ <div class="q-side-989t-block">
+ <div style="font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.8rem; line-height:1;">JH</div>
+ <div><strong>정환 로컬 가이드</strong><br>화곡 지역 유흥 정보를 5년간 정리해온 로컬 리서처입니다. 빠른 결정이 필요한 방문자에게 절차 중심 정보를 제공합니다.</div>
+ </div>
+ </div>
+ </main>
 
-  <!-- DOM noise: 불필요한 래퍼 및 빈 시맨틱 -->
-  <aside class="note-x4b"></aside>
-  <article style="display:none"></article>
-  <!-- 9a2f1c -->
-  <div class="wrapper-k7p2"></div>
+ <!-- DOM noise: 불필요한 래퍼 및 빈 시맨틱 -->
+ <aside class="note-x4b"></aside>
+ <article style="display:none"></article>
+ <!-- 9a2f1c -->
+ <div class="wrapper-k7p2"></div>
 
-  <footer>
-    <div class="v-foot-ywlr">© 2025 화곡 룸싸롱 TOP5 — 절차 가이드. 이 사이트는 정보 제공 목적입니다.</div>
-  </footer>
+ <footer>
+ <div class="v-foot-ywlr">© 2025 화곡 룸싸롱 TOP5 — 절차 가이드. 이 사이트는 정보 제공 목적입니다.</div>
+ </footer>
 
-  <script>
-    const toggle = document.getElementById('menuToggle');
-    const overlay = document.getElementById('overlayMenu');
-    const closeBtn = document.getElementById('closeOverlay');
-    toggle.addEventListener('click', () => overlay.classList.add('active'));
-    closeBtn.addEventListener('click', () => overlay.classList.remove('active'));
-  </script>
+ <script>
+ const toggle = document.getElementById('menuToggle');
+ const overlay = document.getElementById('overlayMenu');
+ const closeBtn = document.getElementById('closeOverlay');
+ toggle.addEventListener('click', () => overlay.classList.add('active'));
+ closeBtn.addEventListener('click', () => overlay.classList.remove('active'));
+ </script>
 
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "화곡 룸싸롱 TOP5 — 처음 방문자를 위한 절차 중심 결정 안내",
-      "url": "hwagok-review-guide.link-hub.org",
-      "description": "화곡 룸싸롱 TOP5를 빠르게 결정하기 위한 절차 가이드. 문의부터 마무리까지 단계별로 설명합니다.",
-      "author": {
-        "@type": "Person",
-        "name": "정규호"
-      },
-      "about": {
-        "@type": "LocalBusiness",
-        "name": "화곡 룸싸롱 TOP5",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "화곡동"
-        },
-        "serviceType": "룸싸롱"
-      },
-      "mainEntity": [
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "당일 예약이 가능한가요?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "예금과 시간대가 맞으면 당일 연결도 가능합니다. 오늘 5시 이전 문의가 유리합니다."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "인원이 갑자기 늘면 어떻게 하나요?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "도착 전 변동을 알려주면 룸 변경을 검토합니다. 현장 추가는 제약이 있을 수 있습니다."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "초보자가 이용하기 복잡하지 않나요?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "절차가 단순하며 초보자 안내가 가능합니다. 문의 시 밝히면 단계적으로 설명합니다."
-              }
-            }
-          ]
-        }
-      ]
-    }
-  </script>
+ <script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "name": "화곡 룸싸롱 TOP5 — 처음 방문자를 위한 절차 중심 결정 안내",
+ "url": "hwagok-review-guide.link-hub.org",
+ "description": "화곡 룸싸롱 TOP5를 빠르게 결정하기 위한 절차 가이드. 문의부터 마무리까지 단계별로 설명합니다.",
+ "author": {
+ "@type": "Person",
+ "name": "정규호"
+ },
+ "about": {
+ "@type": "LocalBusiness",
+ "name": "화곡 룸싸롱 TOP5",
+ "address": {
+ "@type": "PostalAddress",
+ "addressLocality": "화곡동"
+ },
+ "serviceType": "룸싸롱"
+ },
+ "mainEntity": [
+ {
+ "@type": "FAQPage",
+ "mainEntity": [
+ {
+ "@type": "Question",
+ "name": "당일 예약이 가능한가요?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "예금과 시간대가 맞으면 당일 연결도 가능합니다. 오늘 5시 이전 문의가 유리합니다."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "인원이 갑자기 늘면 어떻게 하나요?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "도착 전 변동을 알려주면 룸 변경을 검토합니다. 현장 추가는 제약이 있을 수 있습니다."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "초보자가 이용하기 복잡하지 않나요?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "절차가 단순하며 초보자 안내가 가능합니다. 문의 시 밝히면 단계적으로 설명합니다."
+ }
+ }
+ ]
+ }
+ ]
+ }
+ </script>
 </body>
 </html>
